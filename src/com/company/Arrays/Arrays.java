@@ -71,7 +71,7 @@ public class Arrays {
         }
         for(int i = 0; i < arr.length; i++){
             for(int j = 0; j < arr[0].length; j++){
-                System.out.println(arr[i][j]+" ");
+                System.out.print(arr[i][j]+" ");
             }
             System.out.println();
         }  }
@@ -83,7 +83,7 @@ public class Arrays {
         }
         int[][] result = new int[arr.length][];
         for(int i = 0; i < result.length; i++){
-            result[i] = new int[arr[0].length];
+            result[i] = new int[arr2[0].length];
         }
         for (int i = 0; i < arr.length ; i++) {
             for (int j = 0; j < arr2[0].length; j++) {
